@@ -8,10 +8,42 @@ body {
     background-color: #795695;
     color: #EEEEEE;
     width: 100%;
-    
+    position: fixed;
+    top: 0;
 }
 
 .tab {
-    /* font-size */
+    font-size: 25px;
+    margin: 10px 25px;
+    border-right: #1E1E1E;
+    display: inline-block;
+}
 
+.myname {
+    float: right;
+}
+
+.content {
+    position: relative;
+    text-align: center;
+    top: 100px;
+}
+
+.headline {
+    margin-top: 2500px; 
+}
+
+.headline hr {
+    color: #1E1E1E;
+    width: 25%;
+    margin: 0 auto;
+}
+
+.tab a {
+    color: #EEEEEE;
+    text-decoration: none;
+}
+
+.tab a:hover {
+    color: #1E1E1E;
 }

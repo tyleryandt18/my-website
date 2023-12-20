@@ -39,6 +39,10 @@ body {
     margin: 0 auto;
 }
 
+.headline h2 {
+    padding-top: 20px;
+}
+
 .tab a {
     color: #EEEEEE;
     text-decoration: none;
@@ -46,4 +50,9 @@ body {
 
 .tab a:hover {
     color: #1E1E1E;
+}
+
+.card {
+    display: inline-block;
+    width: 33%;
 }

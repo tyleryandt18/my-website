@@ -1,15 +1,16 @@
 body {
     background-color: #EEEEEE;
-    font-family: 'Fira Sans', sans-serif;
+    font-family: 'JetBrains Mono', monospace;
     color: #1E1E1E;
 }
 
-.tab-select {
-    background-color: #795695;
+.menu {
+    background-color: #1E1E1E;
     color: #EEEEEE;
     width: 100%;
-    position: fixed;
     top: 0;
+    position: fixed;
+    z-index: 2;
 }
 
 .tab {
@@ -19,37 +20,68 @@ body {
     display: inline-block;
 }
 
-.myname {
-    float: right;
-}
-
-.content {
-    position: relative;
-    text-align: center;
-    top: 100px;
-}
-
-.headline {
-    margin-top: 2500px; 
-}
-
-.headline hr {
-    color: #1E1E1E;
-    width: 25%;
-    margin: 0 auto;
-}
-
-.headline h2 {
-    padding-top: 20px;
-}
-
 .tab a {
     color: #EEEEEE;
     text-decoration: none;
 }
 
 .tab a:hover {
-    color: #1E1E1E;
+    color: plum;
+}
+
+.myname {
+    float: right;
+}
+
+.main-content {
+    position: relative;
+    text-align: center;
+    top: 100px;
+}
+
+.section {
+    width: 100%;
+    height: auto;
+}
+
+.title {
+    font-size: 40px;
+    margin-top: 50px;
+}
+
+.welcome-text {
+    font-size: 24px;
+}
+
+.home {
+    background-image: url("../img/IMG_1994.JPG");
+    background-size: cover;
+    height: 100vh;
+    background-color: #EEEEEE;
+    text-align: left;
+}
+
+.projects {
+    background-image: url("../img/IMG_2105.JPG");
+    background-size: cover;
+    height: 100vh;
+    background-color: #EEEEEE;
+    text-align: right;
+    color: #EEEEEE;
+}
+
+.resume {
+    background-image: url("../img/IMG_2674.JPG");
+    background-size: cover;
+    height: 100ch;
+    background-color: #EEEEEE;
+}
+
+.photography {
+    background-image: url("../img/IMG_2177.JPG");
+    background-size: cover;
+    height: 100vh;
+    background-color: #EEEEEE;
 }
 
 .card {

@@ -1,5 +1,5 @@
 body {
-    background-color: #EEEEEE;
+    background-color: #1E1E1E;
     font-family: 'JetBrains Mono', monospace;
     color: #1E1E1E;
 }
@@ -14,9 +14,10 @@ body {
 }
 
 .tab {
-    font-size: 25px;
-    margin: 10px 25px;
-    border-right: #1E1E1E;
+    font-size: 20px;
+    margin: 15px 0;
+    padding: 0 25px;
+    border-right: #EEEEEE solid;
     display: inline-block;
 }
 
@@ -36,7 +37,7 @@ body {
 .main-content {
     position: relative;
     text-align: center;
-    top: 100px;
+    top: 60px;
 }
 
 .section {
@@ -73,18 +74,47 @@ body {
 .resume {
     background-image: url("../img/IMG_2674.JPG");
     background-size: cover;
-    height: 100ch;
+    height: 100vh;
     background-color: #EEEEEE;
 }
 
 .photography {
     background-image: url("../img/IMG_2177.JPG");
     background-size: cover;
-    height: 100vh;
     background-color: #EEEEEE;
+    text-align: right;
+}
+
+.contact {
+    background-color: #1E1E1E;
+    color: #EEEEEE;
+    text-align: left;
+    padding-bottom: 30px;
 }
 
 .card {
-    display: inline-block;
-    width: 33%;
+    border-radius: 20px;
+    background-color: #1E1E1E;
+    opacity: 0.8;
+}
+
+.card-title {
+    padding: 10px;
+    text-align: center;
+    color: #EEEEEE;
+    border-bottom: #EEEEEE solid;
+    margin-bottom: 0;
+}
+
+.card-body {
+    padding: 10px 20px;
+}
+
+.card-img {
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.card-deck .row {
+    padding-bottom: 20px;
 }

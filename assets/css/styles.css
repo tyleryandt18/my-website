@@ -4,6 +4,7 @@ body {
     color: #1E1E1E;
 }
 
+/* navigation menu styling */
 .menu {
     background-color: #1E1E1E;
     color: #EEEEEE;
@@ -41,24 +42,25 @@ body {
     top: 60px;
 }
 
-.section {
-    width: 100%;
-    height: auto;
-}
-
 .title {
-    font-size: 40px;
+    font-size: 25px;
     margin: 50px 0;
 }
 
 .welcome-text {
     font-size: 24px;
+    padding-bottom: 20px;
+}
+
+/* section styling */
+.section {
+    width: 100%;
+    height: auto;
 }
 
 .home {
     background-image: url("../img/IMG_1994.JPG");
     background-size: cover;
-    height: 100vh;
     background-color: #EEEEEE;
     text-align: left;
 }
@@ -66,7 +68,6 @@ body {
 .projects {
     background-image: url("../img/IMG_2105.JPG");
     background-size: cover;
-    height: 100vh;
     background-color: #EEEEEE;
     text-align: right;
     color: #EEEEEE;
@@ -75,12 +76,11 @@ body {
 .resume {
     background-image: url("../img/IMG_2674.JPG");
     background-size: cover;
-    height: 100vh;
     background-color: #EEEEEE;
 }
 
 .photography {
-    background-image: url("../img/IMG_2177.JPG");
+    background-image: url("../img/IMG_2176.JPG");
     background-size: cover;
     background-color: #EEEEEE;
     text-align: right;
@@ -98,14 +98,15 @@ body {
     background-color: #1E1E1E;
     color: #EEEEEE;
     text-align: left;
-    padding-bottom: 30px;
+    padding-bottom: 20px;
 }
 
+/* card styling */
 .card {
     border-radius: 20px;
     background-color: #1E1E1E;
     cursor: pointer;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 .light-card {
@@ -142,5 +143,46 @@ body {
 }
 
 .card-columns {
-    column-count: 3;
+    column-count: 1;
+}
+
+/* button styling */
+:root {
+    --fortune-btn-color: #EEEEEE;
+    --fortune-btn-hover-color: #EEEEEE;
+    --fortune-btn-bg: #1E1E1E;
+    --fortune-btn-hover-bg: #606060;
+    --fortune-btn-hover-border: #1E1E1E;
+    --fortune-btn-active-border: #1E1E1E;
+    --fortune-btn-focus-shadow-rgb: 150, 150, 150;
+}
+
+.btn-main{
+    --bs-btn-color: var(--fortune-btn-color);
+    --bs-btn-bg: var(--fortune-btn-bg);
+    --bs-btn-border-color: var(--fortune-btn-bg);
+    --bs-btn-hover-color: var(--fortune-btn-hover-color);
+    --bs-btn-hover-bg: var(--fortune-btn-hover-bg);
+    --bs-btn-hover-border-color: var(--fortune-btn-hover-border);
+    width: 80%;
+    font-family: 'JetBrains Mono', monospace;
+    border-radius: 15px;
+}
+
+/* Media Queries */
+/* Medium */
+@media (min-width: 768px) {
+    .title {
+        font-size: 30px;
+    }
+    .card-columns {
+        column-count: 3;
+    }
+}
+
+/* Large and Beyond */
+@media (min-width: 992px) {
+    .title {
+        font-size: 40px;
+    }
 }

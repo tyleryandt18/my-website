@@ -66,6 +66,7 @@ body {
     background-size: cover;
     background-color: #EEEEEE;
     text-align: left;
+    height: 100vh;
 }
 
 .projects {
@@ -160,6 +161,10 @@ body {
     column-count: 1;
 }
 
+.card-body img {
+    padding-bottom: 10px;
+}
+
 /* button styling */
 :root {
     --fortune-btn-color: #EEEEEE;
@@ -203,6 +208,9 @@ body {
     }
     .contact p {
         font-size: 15px;
+    }
+    .projects {
+        height: 90vh;
     }
 }
 

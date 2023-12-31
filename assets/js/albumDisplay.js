@@ -47,7 +47,7 @@ let album = albums[albumName].album;
 let path = "assets/img/albums/" + String(albumName) + "/";
 album.forEach(img => {
     let div = document.createElement('div');
-    div.classList.add('col-12');
+    div.classList.add('col-12', 'col-xl-10', 'offset-xl-1');
     div.style.padding = '20px';
     let image = document.createElement('img');
     image.src = path + img;

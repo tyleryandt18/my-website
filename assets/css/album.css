@@ -1,3 +1,42 @@
 * {
     background-color: #EEEEEE;
 }
+
+#album-title {
+    text-align: center;
+    color: #1E1E1E;
+    border-bottom: solid #1E1E1E;
+    padding: 20px;
+    font-size: 25px;
+}
+
+#album-description {
+    padding: 20px;
+    font-size: 16px;
+}
+
+.btn-container {
+    text-align: center;
+    padding: 20px;
+}
+
+/* Media Queries */
+/* Medium */
+@media (min-width: 768px) {
+    #album-title {
+        font-size: 30px;
+    }
+    #album-description {
+        font-size: 18px;
+    }
+}
+
+/* Large and Beyond */
+@media (min-width: 992px) {
+    #album-title {
+        font-size: 40px;
+    }
+    #album-description {
+        font-size: 20px;
+    }
+}

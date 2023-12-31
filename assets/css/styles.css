@@ -45,11 +45,12 @@ body {
 .title {
     font-size: 25px;
     margin: 50px 0;
+    padding: 0 20px;
 }
 
 .welcome-text {
-    font-size: 24px;
-    padding-bottom: 20px;
+    font-size: 16px;
+    padding: 0 20px 20px 20px;
 }
 
 /* section styling */
@@ -70,7 +71,6 @@ body {
     background-size: cover;
     background-color: #EEEEEE;
     text-align: right;
-    color: #EEEEEE;
 }
 
 .resume {
@@ -97,8 +97,16 @@ body {
 .contact {
     background-color: #1E1E1E;
     color: #EEEEEE;
-    text-align: left;
+    text-align: center;
     padding-bottom: 20px;
+}
+
+.contact .title {
+    text-align: left;
+}
+
+.contact p {
+    font-size: 18px;
 }
 
 /* card styling */
@@ -172,11 +180,23 @@ body {
 /* Media Queries */
 /* Medium */
 @media (min-width: 768px) {
+    .projects {
+        color: #EEEEEE;
+    }
+    .contact {
+        text-align: left;
+    }
     .title {
         font-size: 30px;
     }
     .card-columns {
         column-count: 3;
+    }
+    .welcome-text {
+        font-size: 18px;
+    }
+    .contact p {
+        font-size: 15px;
     }
 }
 
@@ -184,5 +204,11 @@ body {
 @media (min-width: 992px) {
     .title {
         font-size: 40px;
+    }
+    .welcome-text {
+        font-size: 22px;
+    }
+    .contact p {
+        font-size: 18px;
     }
 }

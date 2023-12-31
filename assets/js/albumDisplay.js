@@ -16,7 +16,7 @@ const albums = {
     },
     'day': {
         album: day,
-        title: "A Picture a Day.",
+        title: "A Picture A Day.",
         description: "When I first got into photography, I challenged myself to take at least one picture a day for 100 days. I experimented with all sorts of different techniques. These are some of my favorite shots."
     },
     'Arizona': {

@@ -2,8 +2,6 @@
     background-color: #EEEEEE;
 }
 
-body {}
-
 #display-title {
     text-align: center;
     color: #1E1E1E;
@@ -20,6 +18,11 @@ body {}
 .btn-container {
     text-align: center;
     padding: 20px;
+}
+
+.col-md-6 {
+    padding: 20px;
+    text-align: center;
 }
 
 /* Media Queries */

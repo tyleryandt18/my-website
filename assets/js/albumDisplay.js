@@ -51,6 +51,7 @@ album.forEach(img => {
     div.style.padding = '20px';
     let image = document.createElement('img');
     image.src = path + img;
+    image.alt = "album image";
     image.setAttribute('width', '100%');
     image.setAttribute('height', 'auto');
     div.appendChild(image);

@@ -25,6 +25,29 @@
     text-align: center;
 }
 
+.col-md-6 img {
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.col-md-6 img:hover {
+    opacity: 0.8;
+}
+
+.portfolio-title {
+    padding: 20px 0;
+    text-align: left;
+}
+
+.portfolio-description {
+    text-align: left;
+    padding: 20px 0;
+}
+
+hr {
+    color: #1E1E1E;
+}
+
 /* Media Queries */
 /* Medium */
 @media (min-width: 768px) {

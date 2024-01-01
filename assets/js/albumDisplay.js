@@ -6,7 +6,7 @@ const albums = {
     },
     'Ireland': {
         album: ireland,
-        title: "Ireland,",
+        title: "Ireland.",
         description: "While I was studying abroad, I took a weekend trip to Dublin, Ireland. These photos were taken on a day trip to the Cliffs of Moher."
     },
     'sports': {
@@ -37,8 +37,8 @@ const albumName = urlParams.get('album');
 let albumDisplay = document.getElementById("album-display");
 albumDisplay.innerHTML = '';
 
-let albumTitle = document.getElementById("album-title");
-let albumDescription = document.getElementById("album-description");
+let albumTitle = document.getElementById("display-title");
+let albumDescription = document.getElementById("display-description");
 
 albumTitle.textContent = albums[albumName].title;
 albumDescription.textContent = albums[albumName].description;

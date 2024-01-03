@@ -48,6 +48,10 @@ hr {
     color: #1E1E1E;
 }
 
+#site {
+    margin: 20px;
+}
+
 /* Media Queries */
 /* Medium */
 @media (min-width: 768px) {

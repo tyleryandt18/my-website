@@ -124,6 +124,10 @@ body {
     opacity: 0.9;
 }
 
+.photo-card:hover h5 {
+    color: plum;
+}
+
 .light-card {
     background-color: #EEEEEE;
     color: #1E1E1E;
@@ -172,25 +176,30 @@ body {
 
 /* button styling */
 :root {
-    --fortune-btn-color: #EEEEEE;
-    --fortune-btn-hover-color: #EEEEEE;
-    --fortune-btn-bg: #1E1E1E;
-    --fortune-btn-hover-bg: #606060;
-    --fortune-btn-hover-border: #1E1E1E;
-    --fortune-btn-active-border: #1E1E1E;
-    --fortune-btn-focus-shadow-rgb: 150, 150, 150;
+    --main-btn-color: #EEEEEE;
+    --main-btn-hover-color: plum;
+    --main-btn-bg: #1E1E1E;
+    --main-btn-hover-bg: #606060;
+    --main-btn-hover-border: #1E1E1E;
+    --main-btn-active-border: #1E1E1E;
+    --main-btn-focus-shadow-rgb: 150, 150, 150;
 }
 
 .btn-main{
-    --bs-btn-color: var(--fortune-btn-color);
-    --bs-btn-bg: var(--fortune-btn-bg);
-    --bs-btn-border-color: var(--fortune-btn-bg);
-    --bs-btn-hover-color: var(--fortune-btn-hover-color);
-    --bs-btn-hover-bg: var(--fortune-btn-hover-bg);
-    --bs-btn-hover-border-color: var(--fortune-btn-hover-border);
+    --bs-btn-color: var(--main-btn-color);
+    --bs-btn-bg: var(--main-btn-bg);
+    --bs-btn-border-color: var(--main-btn-bg);
+    --bs-btn-hover-color: var(--main-btn-hover-color);
+    --bs-btn-hover-bg: var(--main-btn-hover-bg);
+    --bs-btn-hover-border-color: var(--main-btn-hover-border);
     width: 80%;
     font-family: 'JetBrains Mono', monospace;
     border-radius: 15px;
+}
+
+/* Resume */
+#my-resume {
+    height: 600px;
 }
 
 /* Media Queries */
@@ -217,6 +226,9 @@ body {
     .projects {
         height: 100vh;
     }
+    #my-resume {
+        height: 800px;
+    }
 }
 
 /* Large and Beyond */
@@ -229,5 +241,8 @@ body {
     }
     .contact p {
         font-size: 18px;
+    }
+    #my-resume {
+        height: 900px;
     }
 }

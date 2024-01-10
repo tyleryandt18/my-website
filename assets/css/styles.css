@@ -7,41 +7,37 @@ body {
 /* TO-DO: change px measurements to em */
 
 /* navigation menu styling */
-.menu {
+.navbar-dark {
     background-color: #1E1E1E;
     color: #EEEEEE;
-    width: 100%;
-    top: 0;
-    position: fixed;
-    z-index: 2;
 }
 
-.tab {
-    font-size: 20px;
+.my-bg {
+    background-color: #1E1E1E;
+}
+
+.navbar-brand {
+    color: #EEEEEE;
+    margin: 10px;
+}
+
+.navbar-toggler {
+    margin: 10px;
+}
+
+.nav-item a {
+    color: #EEEEEE;
     margin: 15px 0;
     padding: 0 25px;
-    border-right: #EEEEEE solid;
-    display: inline-block;
 }
 
-.tab a {
-    color: #EEEEEE;
-    text-decoration: none;
-}
-
-.tab a:hover {
+.nav-item a:hover {
     color: plum;
-}
-
-.myname {
-    float: right;
-    border-right: none;
 }
 
 .main-content {
     position: relative;
     text-align: center;
-    top: 60px;
 }
 
 .title {
